@@ -1,0 +1,12 @@
+<div>
+    <div class="card-header">
+        <h5 class="card-title"> Login Page </h5>
+        <div class="card-body">
+            <form (ngSubmit)="onSubmit()">
+                <input name="username" class="form-control" placeholder="username" [(ngModel)]="user.username">
+                <input name="password" class="form-control" placeholder="password" [(ngModel)]="user.password">
+                <button class="btn btn-primary" type="submit"> Login </button>
+            </form>
+        </div>
+    </div>
+</div>
